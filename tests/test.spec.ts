@@ -25,7 +25,7 @@ test('submissão completa da prova', async ({ browser }) => {
   await page.getByLabel("URL do Repositório").click()
   await page.getByLabel("URL do Repositório").fill("https://github.com/Tuzink/teste-prova.git")
   
-  await page.getByRole("button", {name: "Iniciar Prova"}).click()
+  await page.getByRole('button', {name: 'Iniciar Prova'}).click()
 
   
 
